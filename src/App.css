@@ -7,11 +7,6 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -23,7 +18,17 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+nav{
+  height: 40px;
+  width: 100%;
+  background: yellow;
+  line-height: 40px;
+  position: absolute;
+  bottom: 0;
+}
+nav a{
+margin: 26px;
+}
 .App-link {
   color: #61dafb;
 }
