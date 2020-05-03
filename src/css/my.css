@@ -1,0 +1,8 @@
+.p{
+    display: flex;
+}
+header{
+    width: 100%;
+    height: 2rem;
+    background:#e8c49f;
+}

@@ -5,7 +5,9 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import {
   BrowserRouter as Router
-} from 'react-router-dom'
+} from 'react-router-dom';
+import 'lib-flexible';
+import './iconfont/iconfont.css'
 
 ReactDOM.render(
   <React.StrictMode>
