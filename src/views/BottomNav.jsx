@@ -10,6 +10,7 @@ import My from './My';
 
 import '../iconfont/iconfont.css'
 
+
 export default class Demo extends Component {
     constructor(props) {
         super(props);
@@ -35,11 +36,20 @@ export default class Demo extends Component {
                     </div>
                    
                </nav>
+<<<<<<< HEAD
                  <Route exact path={"/"} component={Home}></Route>
                  <Route path={"/Theater"} component={Theater}></Route>
                  <Route path={"/Wallet"} component={Wallet}></Route>
                  <Route path={"/My"} component={My}></Route>
                
+=======
+               <Route exact path={"/"} component={Home}></Route>
+               <Route path={"/Theater"} component={Theater}></Route>
+               <Route path={"/Wallet"} component={Wallet}></Route>
+               <Route path={"/My"} component={My}></Route>
+              
+                
+>>>>>>> 335b9590a7ab394a6821553a49b0f2a7585c578b
             </div>
         )
     }
