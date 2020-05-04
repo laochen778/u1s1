@@ -1,8 +1,146 @@
-.p{
-    display: flex;
-}
 header{
     width: 100%;
-    height: 2rem;
+    height: 1.5rem;
+    background:#e8c49f; 
+   
+}
+header .iconfont{ 
+  position: absolute;
+  font-size: 0.5rem;
+  color: aliceblue;
+  right: 0.5rem;
+  top:0.5rem;
+}
+.p{
     background:#e8c49f;
+    height: 4rem;
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+.login{
+    width: 9.2rem;
+    height: 100%;
+    background: white;
+    margin: auto;
+    border-radius: 0.3rem 0.3rem 0 0;
+}
+.loginP{
+    width: 8.5rem;
+    height: 1.4rem;
+    margin: auto;
+}
+.headPortrait{
+    width: 1.7rem;
+    height: 1.7rem;
+    border:#ccc solid 2px;
+    border-radius: 50%;
+    position: relative;
+    top: -25px;
+}
+.headPortrait img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.loginb{
+    position: relative;
+    top: -1.5rem;
+    left: 2rem;
+    font-size: 28px;
+}
+.logina{
+    position: relative;
+    top: -0.86rem;
+    left: 0.3rem;
+    color: #ccc;
+}
+.loginVip{
+    width: 100%;
+    height: 0.7rem;
+    background:white;
+}
+.Vipa{
+    width: 2.1rem;
+    height: 100%;
+    margin-left: 77.1%;
+    text-align: center;
+    line-height: 0.7rem;
+    background:#f5f5f5;
+    border-radius: 0.5rem 0 0 0.5rem;
+    color:#ccc;
+}
+.login-base{
+    width: 100%;
+    height: 1.68rem;
+    margin-top: 0.2rem;
+    display: flex;
+}
+.account,.integral,.coupon,.PLUS{
+    height: 100%;
+    width: 25%;
+}
+.login-base .p1{
+    height: 0.6rem;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 15px;
+    border-bottom: solid white 15px;
+}
+.login-base .p2{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 5px;
+}
+.PLUS .p1{
+font-size: 28px;
+}
+.centre{
+    width:9.2rem;
+    height: 2.3rem;
+    margin: auto;
+    display: flex;
+    border-radius: 0 0 0.3rem 0.3rem;
+}
+.order-form,.wallet,.card-bag,.null{
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    background: white;
+}
+.centre .p1{
+    margin-top: 35px;
+    font-size: 40px;
+}
+.centre .p2{
+    margin-top: 20px;
+}
+.big{
+    background: #f5f5f5;
+}
+.content{
+    width: 9.2rem;
+    height: 2.1rem;
+    margin: 25px auto;
+    background: white;
+    display: flex;
+}
+.spectator,.site,.feedback,.service{
+    width: 25%;
+    height: 100%;
+    text-align: center;
+}
+.content .p1{
+    font-size: 40px;
+    margin-top: 30px;
+}
+.content .p2{
+    margin-top: 25px;
+}
+.service .p2{
+    color: red;
+}
+.footer{
+    width: 100%;
+    height:6.3rem;
+    background:#f5f5f5;
 }
