@@ -4,7 +4,7 @@ export default class Theater extends Component {
     render() {
         return (
             <div>          
-                我是剧院
+                <div className={"TopNav"}>我是剧院</div> 
             </div>
         )
     }

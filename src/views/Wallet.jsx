@@ -4,7 +4,7 @@ export default class Wallet extends Component {
     render() {
         return (
             <div>
-                票夹
+                <div className={"TopNav"}>票夹</div> 
             </div>
         )
     }
