@@ -10,6 +10,7 @@ import Theater from './Theater';
 import My from './My';
 import '../iconfont/iconfont.css'
 
+
 export default class Demo extends Component {
     constructor(props) {
         super(props);
@@ -39,6 +40,8 @@ export default class Demo extends Component {
                <Route path={"/Theater"} component={Theater}></Route>
                <Route path={"/Wallet"} component={Wallet}></Route>
                <Route path={"/My"} component={My}></Route>
+              
+                
             </div>
         )
     }
