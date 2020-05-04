@@ -1,0 +1,81 @@
+.Top{
+    width: 9.2rem;
+    height: 1.16rem;
+    margin: auto;
+    line-height: 1.16rem;
+    font-size: 40px;
+}
+.login-logo{
+    margin-top: 0.26rem;
+}
+.login-logo img{
+    width: 4.3rem;
+    height: 1.3rem;
+    margin: 0.6rem 2.9rem 0.9rem;
+}
+.login-id input{
+    border: none;
+    outline: none;
+    width: 8.1rem;
+    height: 1.5rem;
+    border-bottom: 1px #999999 solid;
+    margin-left:9%;
+    font-size: 35px;
+    margin-top: 10px;
+}
+.login-login{
+    width: 8.2rem;
+    height: 1.3rem;
+    background:linear-gradient(50deg,#ff9a34, #ff4d4a);
+    border-radius: 0.66667rem;
+    color: white;
+    text-align: center;
+    line-height: 1.3rem;
+    margin: 1.2rem auto 0.52rem;
+    font-size: 0.48rem;
+    opacity: 0.5;
+}
+.login-btn{
+    width: 8.2rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between
+}
+.login-btn a{
+    text-decoration: none;
+    color:#666666 ;
+    font-size: 0.4rem;
+}
+.login-foot{
+    position: relative;
+    bottom: -2.5rem;
+    width: 2.35rem;
+    height: 0.9rem;
+    left: 14%;
+    right: 0.75rem;
+    border-top: 1px solid #232323;
+}
+.else{
+    position: relative;
+    left: 2.6rem;
+    top: -0.2rem;
+    color: #999999;
+}
+.foot-right{
+    width: 2.35rem;
+    height: 0.9rem;
+    position: absolute;
+    border-top: 1px #000000 solid;
+    left: 4.8rem;
+    top: -0.05rem;
+}
+.login-img img{
+    width: 1rem;
+    height: 1rem;
+    position: relative;
+    top: 3rem;
+    left: 3rem;
+}
+.login-img .img2{
+  margin-left: 2rem;
+}

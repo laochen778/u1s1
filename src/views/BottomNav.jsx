@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import {
-    BrowserRouter as Router,
     Route,
     NavLink,
 } from 'react-router-dom';
@@ -8,6 +7,7 @@ import Home from './Home';
 import Wallet from './Wallet';
 import Theater from './Theater';
 import My from './My';
+
 import '../iconfont/iconfont.css'
 
 export default class Demo extends Component {
@@ -35,10 +35,11 @@ export default class Demo extends Component {
                     </div>
                    
                </nav>
-               <Route exact path={"/"} component={Home}></Route>
-               <Route path={"/Theater"} component={Theater}></Route>
-               <Route path={"/Wallet"} component={Wallet}></Route>
-               <Route path={"/My"} component={My}></Route>
+                 <Route exact path={"/"} component={Home}></Route>
+                 <Route path={"/Theater"} component={Theater}></Route>
+                 <Route path={"/Wallet"} component={Wallet}></Route>
+                 <Route path={"/My"} component={My}></Route>
+               
             </div>
         )
     }

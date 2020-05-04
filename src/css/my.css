@@ -1,3 +1,6 @@
+body{
+    height: 500px;
+}
 header{
     width: 100%;
     height: 1.5rem;
@@ -110,6 +113,7 @@ font-size: 28px;
 .centre .p1{
     margin-top: 35px;
     font-size: 40px;
+    color: orange
 }
 .centre .p2{
     margin-top: 20px;

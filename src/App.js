@@ -1,17 +1,24 @@
 import React from 'react';
 import {
   BrowserRouter as Router,
-  Route
+  Route,
+  Switch
 } from 'react-router-dom'
 import './App.css';
-import BottomNav from './views/BottomNav'
+import BottomNav from './views/BottomNav';
+import login from './views/login';
 
 function App() {
   return (
     <div className={"App"}>
-      <Router>
+     
+      <Router> 
+        <Switch>
+        <Route path={"/login"} component={login}></Route>
         <Route path={"/"} component={BottomNav}></Route>
+        </Switch>
       </Router>
+      
     </div>
   );
 }

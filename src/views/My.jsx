@@ -1,15 +1,23 @@
 import React, { Component } from 'react'
 import '../css/my.css'
 
+
 export default class  extends Component {
+    constructor(props){
+        super(props);
+        this.start={}
+    }
     render() {
         return (
             <div className='big'>
                 <header><i  className='iconfont'>&#xe503;</i></header>
                 <div className='p'>
                     <div className="login">
-                        <div className='loginP'>
-                             <div className="headPortrait"><img src={require("../img/2.gif")}/></div>
+                        <div className='loginP' onClick={()=>{
+                               this.props.history.push('/login')
+                        }
+                        }>
+                             <div className="headPortrait"><img src={require("../img/2.gif")} alt=''/></div>
                              <span><b className='loginb'>登录/注册</b></span>
                              <span><a className='logina iconfont'>请点击登录 &#xe65c;</a></span>
                         </div>
@@ -73,6 +81,7 @@ export default class  extends Component {
                     
                 </div>
             <div className='footer'></div>
+            
             </div>
         )
     }
